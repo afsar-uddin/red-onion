@@ -1,0 +1,159 @@
+{
+    "banner": [
+        {
+            "id": 1,
+            "title": "Best food waiting for your belly",
+            "cover": "https://i.ibb.co/pvXMC6H/bannerbackground.png"
+        }
+    ],
+    "breakfast": [
+        {
+            "id": 1,
+            "title": "Bagel and creame cheese",
+            "subTitle": "How we dream about our future",
+            "dsc": "Cream of Mushroom Soup/ Cream of Chicken Soup  1:1, Clear Vegetable Noodles Soup 1:2, Chicken Corn Soup, Thai Soup Thick/ Clear 1:2, Sea Food Soup 1:2, Szechuan Soup 1:2, Thai Tom yam Soup 1:2, Chef Sp Soup 1:2, Tom Yum King Prawn Soup 1:2, Royal Special Soup 1:2 (Chicken, Prwan, Beef, Fish Ball, Chicken Sauces",
+            "price": 6.99,
+            "cover": "https://i.ibb.co/DbxCH4Z/breakfast1.png"
+        },
+        {
+            "id": 2,
+            "title": "Breakfast sandwitch",
+            "subTitle": "Healthy item for ever",
+            "dsc": "Spring roll, Vegetable Tempura, Fried Chicken wonthon, Sandwich,French fry, Bombay Toast, Fish n Chips ,Crispy Papapdum (SOUP OF THE DAY) Thai Soup with Chicken (Thick) Vegetable Soup Chicken Corn Soup (MAIN DISHES) Royal Special Fried Rice Pulao Steamed Rich Prawn Noodles The Fried Chicken Chicken Soya Sauce Fish With Ginger n Mushroom Prawn Chili Onion",
+            "price": 8.99,
+            "cover": "https://i.ibb.co/ymzsGfc/breakfast2.png"
+        },
+        {
+            "id": 3,
+            "title": "Eggs benedict",
+            "subTitle": "Everday eating egss makes healty",
+            "dsc": "The science is clear that up to 3 whole eggs per day are perfectly safe for healthy people. Summary Eggs consistently raise HDL (the “good”) cholesterol. For 70% of people, there is no increase in total or LDL cholesterol. Some people may experience a mild increase in a benign subtype of LDL",
+            "price": 4.99,
+            "cover": "https://i.ibb.co/6b5JT0K/breakfast3.png"
+        },
+        {
+            "id": 4,
+            "title": "Toast croisant fried egg",
+            "shortDsc": "Before you start topping the croissants",
+            "detailDsc": "Before you start topping the croissants, lay them cut-side down on a baking sheet and toast them in a 400 degree oven for about five minutes. That will just firm up the bread a bit and make it nice and crispy",
+            "price": 8.99,
+            "cover": "https://i.ibb.co/g9DR9Cp/breakfast4.png"
+        },
+        {
+            "id": 5,
+            "title": "Baked chicken",
+            "shortDsc": "Baking times vary depending on the size",
+            "detailDsc": "Baking times vary depending on the size and thickness of the chicken. A medium size chicken breast (5 to 6 ounces each), takes approximately 20 to 25 minutes to bake in a 400 degree oven. I always bake chicken breasts at 400 degrees Fahrenheit as the high temperature helps seal in the juices (and the flavor)",
+            "price": 19.99,
+            "cover": "https://i.ibb.co/9qLJwBy/breakfast5.png"
+        },
+        {
+            "id": 6,
+            "title": "Fired egg toast brunch",
+            "shortDsc": "scrambled, poached, boiled or fried",
+            "detailDsc": "Whether they are scrambled, poached, boiled or fried, eggs are a great option on wholemeal toast in the morning. This is because they provide a combination of both complex carbohydrates and protein",
+            "price": 24.99,
+            "cover": "https://i.ibb.co/KFs2bC3/breakfast6.png"
+        }
+    ],
+    "lunch": [
+        {
+            "id": 1,
+            "title": "Healthy meal plan",
+            "shortDsc": "you are cooking for just yourself",
+            "detailDsc": "Whether you are cooking for just yourself, one to two people, or a larger group, planning meals is a good place to start improving your food choices. Taking the time to plan a healthy evening meal can help you avoid a less healthful “drive-through” dinner. ... Once you've planned your meals, make a grocery list.",
+            "price": 29.99,
+            "cover": "https://i.ibb.co/jJZMhM6/lunch1.png"
+        },
+        {
+            "id": 2,
+            "title": "Fried chicken bento",
+            "shortDsc": "creamy potato salads",
+            "detailDsc": "ento boxes have grown in popularity, not just because of the nutritional value of the meals, but also because they're also aesthetically pleasing. Often foods are arranged in the bento to look like popular characters like Snoopy, the minions and, as in this case, the Simpsons.",
+            "price": 21.99,
+            "cover": "https://i.ibb.co/YypwTKq/lunch2.png"
+        },
+        {
+            "id": 3,
+            "title": "Taragon rabbed salmon",
+            "shortDsc": "Tarragon is LIKELY SAFE",
+            "detailDsc": "Tarragon is LIKELY SAFE when taken by mouth in food amounts. It is POSSIBLY SAFE when taken by mouth as a medicine, short-term. Long-term use of tarragon as a medicine is LIKELY UNSAFE. Tarragon contains a chemical called estragole, which might cause",
+            "price": 34.99,
+            "cover": "https://i.ibb.co/xz1YBm7/lunch3.png"
+        },
+        {
+            "id": 4,
+            "title": "Indian lunch",
+            "shortDsc": "Traditional Indian food",
+            "detailDsc": "Traditional Indian food, however, is not only healthy, but is also incredibly tasty with a lot of health benefits. Indian food supports immunity, inflammation, brain function and several other functions in the human body.",
+            "price": 4.55,
+            "cover": "https://i.ibb.co/m59cx4d/lunch4.png"
+        },
+        {
+            "id": 5,
+            "title": "Beef stick",
+            "shortDsc": "Beef jerky is a good source",
+            "detailDsc": "Beef jerky is a good source of protein and high in many vitamins and minerals, including zinc, iron, vitamin B12, phosphorus, and folate. It also has a long shelf life and is portable, making it a great on-the-go option",
+            "price": 49.99,
+            "cover": "https://i.ibb.co/kKwZRm9/lunch5.png"
+        },
+        {
+            "id": 6,
+            "title": "honey soy glazed salmon with peppers",
+            "shortDsc": "n 2-quart baking dish, whisk soy sauce",
+            "detailDsc": "n 2-quart baking dish, whisk soy sauce, honey, 1 tablespoon sesame oil, ginger and black pepper; add salmon turning to coat. Bake for 15 to 20 minutes or until cooked through. Serve salmon with pepper mixture and cooked brown rice. Garnish with fresh basil",
+            "price": 29.99,
+            "cover": "https://i.ibb.co/FwFR830/lunch6.png"
+        }
+    ],
+    "dinner": [
+        {
+            "id": 1,
+            "title": "Salmon with graphfruit",
+            "shortDsc": "grapefruit is loaded with vitamin C",
+            "detailDsc": "Like many citrus fruits, grapefruit is loaded with vitamin C, a nutrient shown to help boost your body's immune system. Grapefruit is also loaded with Vitamin A, another vitamin that has been proven to help immune function. This powerful combination could help keep the amount of time you spend sick to a minimum",
+            "price": 18.99,
+            "cover": "https://i.ibb.co/RCTBK9T/dinner1.png"
+        },
+        {
+            "id": 2,
+            "title": "Lemoney salmon piccata",
+            "shortDsc": "Salmon is rich in omega-3",
+            "detailDsc": "Salmon is rich in omega-3 fatty acids and B Vitamins. It is also a great source of protein and potassium. Eating salmon on a regular basis may help prevent heart disease as well because it balances the number of fatty acids in your body. If you enjoy chicken piccata, you are going to love this healthy alternative",
+            "price": 44.99,
+            "cover": "https://i.ibb.co/mcS6kJs/dinner2.png"
+        },
+        {
+            "id": 3,
+            "title": "Pork tenderlion with quiona pilaf",
+            "shortDsc": "Heat 1 tablespoon oil in medium",
+            "detailDsc": "Heat 1 tablespoon oil in medium saucepan on medium. Add garlic and cook, stirring occasionally, until toasted, about 2 minutes. Add quinoa and cook per package directions. Fluff with a fork and fold in spinach. While quinoa cooks heat a skillet on medium. Add remaining tablespoon oil, season pork with ½ teaspoon each salt and pepper, and cook until browned on all sides and an instant-read thermometer registers 145°F, 12 to 14 minutes.",
+            "price": 23.99,
+            "cover": "https://i.ibb.co/cXSTtnQ/dinner3.png"
+        },
+        {
+            "id": 4,
+            "title": "Fench fries with cheese",
+            "shortDsc": "French fries often are criticized",
+            "detailDsc": "French fries often are criticized as unhealthy. But new research shows that the food provides health benefits, according to the the Alliance for Potato Research and Education. “French fries, as part of mixed meals, produce lower blood glucose and insulin levels in children,” the organization says.",
+            "price": 17.99,
+            "cover": "https://i.ibb.co/JKJhsZ1/dinner4.png"
+        },
+        {
+            "id": 5,
+            "title": "Garlic butter baked salmon",
+            "shortDsc": "Grill cooking is considered",
+            "detailDsc": "Grill cooking is considered healthful because it doesn't require the addition of any extra fat, other than a little coating of oil on the grill itself. ... Pro Tip: Keep your grilled salmon dinner healthy by serving the fish with a little squeeze of lemon.",
+            "price": 13.99,
+            "cover": "https://i.ibb.co/xX6tjR4/dinner5.png"
+        },
+        {
+            "id": 6,
+            "title": "Baked chicken",
+            "shortDsc": "Baking your chicken is a great weeknight",
+            "detailDsc": "Baking your chicken is a great weeknight dinner option, especially if you're trying to lose weight. In addition to being low in fat and calories, baked chicken is rich in important nutrients. Stir-fried chicken. Try stir-frying chicken with a bit of oil and your favorite veggies for a high fiber, protein-packed meal",
+            "price": 11.99,
+            "cover": "https://i.ibb.co/KGksx7K/dinner6.png"
+        }
+    ]
+}
