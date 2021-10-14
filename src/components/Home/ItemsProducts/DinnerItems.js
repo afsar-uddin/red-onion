@@ -12,15 +12,18 @@ const DinnerItems = () => {
     }, []);
 
     return (
-        <Container>
-            <Row xs={1} md={3} className="g-4">
-                {
-                    dinners.map(dinner => <DinnerItem
-                        dinner={dinner}
-                    ></DinnerItem>)
-                }
-            </Row>
-        </Container>
+        <>
+            <Container>
+                <Row xs={1} md={3} className="g-4">
+                    {
+                        dinners.map(dinner => <DinnerItem
+                            key={dinner.id}
+                            dinner={dinner}
+                        ></DinnerItem>)
+                    }
+                </Row>
+            </Container>
+        </>
     );
 
 };

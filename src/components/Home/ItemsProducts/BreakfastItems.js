@@ -15,6 +15,7 @@ const BreakfastItems = () => {
                 <Row xs={1} md={3} className="g-4">
                     {
                         items.map(item => <BreakFastItem
+                            key={item.id}
                             item={item}
                         >
                         </BreakFastItem>)
