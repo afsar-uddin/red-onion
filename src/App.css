@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #313131 !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    transition: 0.4s all;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header style */
+.header .navbar-brand img {
+    max-width: 150px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header button,
+.header .cart {
+    border: 1px solid transparent;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #313131;
 }
-
-.App-link {
-  color: #61dafb;
+.header .signUp {
+    background-color: #F91944;
+    color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header .signUp:hover {
+    color: #313131;
+    border: 1px solid #F91944;
+    background-color: transparent;
+}
+.header button:hover,
+.header .cart:hover {
+    color: #F91944;
+}
+.header .signIn:hover {
+    border-color: #F91944;
+}
+/* banner style */
+.banner img {
+    width: 100%;
+}
+/* search field */
+.banner img {
+    width: 100%;
+}
+.banner h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+.banner {
+    position: relative;
+}
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.search input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.search input:focus-visible,
+.search input:focus-within,
+.search input:active,
+.search input:focus,
+.search input:visited {
+    border-color: #F91944 !important;
+    outline: none;
+}
+.search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 46px;
+    width: 100px;
+    border: 1px solid #F91944;
+    background-color: transparent;
+    border-radius: 20px;
+    background-color: #F91944;
+    color: #fff;
+    font-size: 22px;
+}
+/* items nav */
+.items-nav {
+    text-align: center;
+    margin: 60px 0;
+}
+.items-nav a {
+    text-decoration: none;
+    color: #313131;
+    font-weight: 600;
+    margin: 0 15px;
+    position: relative;
+}
+.items-nav a:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: #F91944;
+    bottom: -5px;
+    transition: 0.4s all;
+}
+.items-nav a:hover:after,
+.items-nav a.active:after {
+    width: 80%;
+}
+.items-nav a:hover,
+.items-nav a.active {
+    color: #F91944;
+}
+/* product items style */
+.item {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.item img {
+    max-width: 80%;
+    margin-bottom: 30px;
+}
+.item h3 {
+    font-size: 22px;
+}
+.item h4 {
+    font-size: 16px;
+    color: #747373;
+}
+.item:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
 }
