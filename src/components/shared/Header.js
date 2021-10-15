@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
-import Banner from '../Home/Banner';
+import useAuth from '../../hooks/useAuth';
 
 
 const Header = () => {
+    const { user, logOut } = useAuth();
     return (
         <div className="header">
             <Navbar>
@@ -15,9 +16,9 @@ const Header = () => {
                     </Link>
                     {/* <Navbar.Toggle /> */}
                     <Navbar.Collapse className="justify-content-end">
-                        <Link className="cart" to="/"><FaShoppingCart /></Link>
-                        <button className="signIn">Sign In</button>
-                        <button className="signUp">Sighn Up</button>
+                        <NavLink activeClassName="active" className="cart" to="/cart"><FaShoppingCart /></NavLink>
+                        {user?.email ? <button onClick={logOut}>Signout</button> : <NavLink activeClassName="active" to="/signIn" className="signIn">Sign In</NavLink>}
+                        {!user?.email && <NavLink activeClassName="active" to="/signUp" className="signUp">Sighn Up</NavLink>}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
